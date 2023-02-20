@@ -29,7 +29,7 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +77,161 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
+/* Fim do CSS comentado */
+
+
+.appbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid;
+  align-items: center;
+  background:#f7d736 ;
+
+}
+
+.logo{
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px ;
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  margin: auto;
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+
+.form-card-title{
+  border: 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight:bold;
+  text-align: start;
+  color: #4c4c4c; 
+}
+
+.autoresize{
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #4c4c4c;
+  margin-top: 20px;
+}
+
+.btn{
+  width: 100%;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card{
+  display: flex;
+  flex-direction: column ;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  font-family: 'Permanent Marker', cursive;
+  width: 12%;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.card-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #4c4c4c;
+}
+
+.card-content{
+  font-size: 16px;
+  color: #4c4c4c;
+}
+
+.card-color-1{
+  background-color: #ead3a7;
+}
+
+.card-color-2{
+  background-color: #9de0f5;
+}
+
+.card-color-3{
+  background-color: #ef89ba;
+}
+
+.card-color-4{
+  background-color: #fae890;
+}
+
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(-1deg);
+}
+
+.card-rotation-2{
+  transform: rotate(1deg);
+}
+
+.card-rotation-3{
+  transform: rotate(3deg);
+}
+
+.card-rotation-4{
+  transform: rotate(-3deg);
+}
+
+.card-rotation-5{
+  transform: rotate(5deg);
+}
+
+.card-rotation-6{
+  transform: rotate(-5deg);
+}
+
+.card-rotation-7{
+  transform: rotate(7deg);
+}
+
+.card-rotation-8{
+  transform: rotate(-7deg);
+} 
+
+.card-rotation-9{
+  transform: rotate(9deg);
+}
+
+.card-rotation-10{
+  transform: rotate(-9deg);
+}
+
+.card-rotation-11{
+  transform: rotate(3.14deg);
+}
+
